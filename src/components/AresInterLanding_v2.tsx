@@ -95,7 +95,7 @@ export default function AresInterLanding() {
             <div className="relative">
               <div className="aspect-[16/10] w-full rounded-3xl border border-white/10 bg-gradient-to-b from-white/5 to-transparent p-1 shadow-2xl">
                 <div className="h-full w-full rounded-2xl bg-neutral-900 p-6 grid grid-rows-[auto,1fr] gap-4">
-                  <div className="h-6 w-40 rounded bg-white/10" />
+                  
                   <div className="grid grid-cols-3 gap-4">
                     <img src="/images/dashboard.png" alt="Live Ops" className="h-24 w-full rounded-xl object-cover" />
                     <img src="/images/metrics.png" alt="Metrics" className="h-24 w-full rounded-xl object-cover" />
