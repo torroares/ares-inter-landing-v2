@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import { useState } from 'react'
 
 export default function AresInterLanding() {
@@ -10,7 +11,16 @@ export default function AresInterLanding() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <a href="#home" className="flex items-center gap-2">
-              <div className="h-8 w-8 rounded-xl bg-gradient-to-br from-emerald-400 to-cyan-500" />
+              <div className="relative h-8 w-8 rounded-xl bg-gradient-to-br from-emerald-400 to-cyan-500 overflow-hidden flex items-center justify-center">
+  <Image
+    src="/images/areslogo.png"
+    alt="Ares Inter Logo"
+    fill
+    className="object-contain opacity-80"
+  />
+</div>
+
+
               <span className="text-lg font-semibold tracking-tight">Ares Inter GmbH</span>
             </a>
             <nav className="hidden md:flex items-center gap-6 text-sm text-neutral-300">
