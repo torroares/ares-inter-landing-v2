@@ -90,7 +90,7 @@ export default function AresInterLanding() {
                   Explore services
                 </a>
               </div>
-              <p className="mt-4 text-xs text-neutral-400">EU coverage • Remote & on-site</p>
+              <p className="mt-4 text-xs text-neutral-400">Worldwide coverage • Remote & on-site</p>
             </div>
             <div className="relative">
               <div className="aspect-[16/10] w-full rounded-3xl border border-white/10 bg-gradient-to-b from-white/5 to-transparent p-1 shadow-2xl">
@@ -101,9 +101,10 @@ export default function AresInterLanding() {
                     <img src="/images/metrics.png" alt="Metrics" className="h-24 w-full rounded-xl object-cover" />
                     <img src="/images/mobile-ui.png" alt="Mobile UI" className="h-24 w-full rounded-xl object-cover" />
                   </div>
-                  <div className="h-40 rounded-xl bg-white/5 flex items-center justify-center text-sm text-neutral-300">
-                    Architecture • APIs • Compliance
-                  </div>
+                  <div className="h-[20px] sm:h-[100px] md:h-[100px] lg:h-[100px] rounded-xl bg-white/5 flex items-center justify-center text-sm text-neutral-300">
+  Architecture • APIs • Compliance
+</div>
+
                 </div>
               </div>
             </div>
@@ -167,7 +168,7 @@ export default function AresInterLanding() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-10 lg:grid-cols-2">
             <div>
-              <h2 className="text-3xl font-semibold">Focus: Sports-Betting</h2>
+              <h2 className="text-3xl font-semibold">Focus: Sports Betting</h2>
               <p className="mt-3 text-neutral-300">
                 We understand the full betting value chain: odds aggregation, risk management, live data, payment/KYC/AML,
                 player protection, promotion mechanics, and compliance across jurisdictions. We help you balance growth,
@@ -309,7 +310,7 @@ export default function AresInterLanding() {
                 <p><span className="text-neutral-400">Company:</span> Ares Inter GmbH</p>
                 <p><span className="text-neutral-400">Email:</span> contact@aresinter.net</p>
 		
-                <p><span className="text-neutral-400">Address:</span> Birsstrasse 320b, CH-4052 Basel, Switzerland</p>
+                <p><span className="text-neutral-400">Address:</span> Birsstr. 320b, CH-4052 Basel, Switzerland</p>
               </div>
             </div>
             <form
@@ -376,7 +377,7 @@ export default function AresInterLanding() {
           <div className="rounded-3xl border border-white/10 bg-neutral-900 p-6">
             <h3 className="text-xl font-semibold">Imprint</h3>
             <p className="mt-2 text-sm text-neutral-300">
-              Ares Inter GmbH — Birsstrasse 320b, CH-4052 Basel, Switzerland, Company Register CH-270-4003027-3, VAT ID CHE-116.097.951. Contact: contact@aresinter.net
+              Ares Inter GmbH — Birsstr. 320b, CH-4052 Basel, Switzerland, Company Register CH-270-4003027-3, VAT ID CHE-116.097.951. Contact: contact@aresinter.net
             </p>
           </div>
         </div>
