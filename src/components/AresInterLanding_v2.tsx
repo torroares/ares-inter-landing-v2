@@ -129,12 +129,12 @@ export default function AresInterLanding() {
             Trusted by teams across iGaming, data & sport
           </p>
           <div className="mt-6 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6 items-center">
-            <img src="/images/aws.png" alt="AWS" className="h-8 mx-auto opacity-70 hover:opacity-100 transition" />
-            <img src="/images/googlecloud.png" alt="Google Cloud" className="h-8 mx-auto opacity-70 hover:opacity-100 transition" />
-            <img src="/images/stripe.png" alt="Stripe" className="h-8 mx-auto opacity-70 hover:opacity-100 transition" />
-            <img src="/images/sportradar.png" alt="Sportradar" className="h-8 mx-auto opacity-70 hover:opacity-100 transition" />
-            <img src="/images/kambi.png" alt="Kambi" className="h-8 mx-auto opacity-70 hover:opacity-100 transition" />
-            <img src="/images/geniussports.png" alt="Genius Sports" className="h-8 mx-auto opacity-70 hover:opacity-100 transition" />
+            <img src="/images/aws.png" alt="AWS" className="h-[64px] mx-auto opacity-90 hover:opacity-100 transition" />
+            <img src="/images/googlecloud.png" alt="Google Cloud" className="h-[64px] mx-auto opacity-90 hover:opacity-100 transition" />
+            <img src="/images/stripe.png" alt="Stripe" className="h-[64px] mx-auto opacity-90 hover:opacity-100 transition" />
+            <img src="/images/sportradar.png" alt="Sportradar" className="h-[64px] mx-auto opacity-90 hover:opacity-100 transition" />
+            <img src="/images/kambi.png" alt="Kambi" className="h-[64px] mx-auto opacity-90 hover:opacity-100 transition" />
+            <img src="/images/geniussports.png" alt="Genius Sports" className="h-[64px] mx-auto opacity-90 hover:opacity-100 transition" />
           </div>
         </div>
       </section>
