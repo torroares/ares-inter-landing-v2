@@ -324,47 +324,33 @@ export default function AresInterLanding() {
               </div>
             </div>
             <form
-              action="https://formspree.io/f/YOUR_FORM_ID"
-              method="POST"
-              className="rounded-3xl border border-white/10 bg-neutral-900 p-6 space-y-4"
-            >
-              <div>
-                <label className="text-sm text-neutral-300">Name</label>
-                <input
-                  name="name"
-                  required
-                  className="mt-1 w-full rounded-xl border border-white/10 bg-neutral-800 px-3 py-2 text-sm outline-none focus:border-emerald-400"
-                  placeholder="Your name"
-                />
-              </div>
-              <div>
-                <label className="text-sm text-neutral-300">Work Email</label>
-                <input
-                  type="email"
-                  name="email"
-                  required
-                  className="mt-1 w-full rounded-xl border border-white/10 bg-neutral-800 px-3 py-2 text-sm outline-none focus:border-emerald-400"
-                  placeholder="name@company.com"
-                />
-              </div>
-              <div>
-                <label className="text-sm text-neutral-300">Project</label>
-                <textarea
-                  name="message"
-                  required
-                  className="mt-1 w-full rounded-xl border border-white/10 bg-neutral-800 px-3 py-2 text-sm outline-none focus:border-emerald-400"
-                  rows={4}
-                  placeholder="What are you building? Timeline? Markets?"
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full rounded-2xl bg-gradient-to-br from-emerald-500 to-cyan-500 px-5 py-3 text-sm font-semibold text-neutral-900 hover:opacity-90"
-              >
-                Send Inquiry
-              </button>
-              <p className="text-xs text-neutral-500">By sending, you agree to be contacted about this request.</p>
-            </form>
+  action="https://formspree.io/f/xeorwplq"   // <- DEIN ENDPOINT
+  method="POST"
+  className="rounded-3xl border border-white/10 bg-neutral-900 p-6 space-y-4"
+>
+  <div>
+    <label className="text-sm text-neutral-300">Name</label>
+    <input name="name" required className="mt-1 w-full rounded-xl border border-white/10 bg-neutral-800 px-3 py-2 text-sm outline-none focus:border-emerald-400" />
+  </div>
+  <div>
+    <label className="text-sm text-neutral-300">Work Email</label>
+    <input type="email" name="email" required className="mt-1 w-full rounded-xl border border-white/10 bg-neutral-800 px-3 py-2 text-sm outline-none focus:border-emerald-400" />
+  </div>
+  <div>
+    <label className="text-sm text-neutral-300">Project</label>
+    <textarea name="message" required className="mt-1 w-full rounded-xl border border-white/10 bg-neutral-800 px-3 py-2 text-sm outline-none focus:border-emerald-400" rows={4} />
+  </div>
+
+  {/* optional: Betreff + Redirect + Honeypot */}
+  <input type="hidden" name="_subject" value="New inquiry via Ares Inter website" />
+  <input type="text" name="_gotcha" style={{ display: 'none' }} /> {/* Spam-Honeypot */}
+  {/* <input type="hidden" name="_redirect" value="https://aresinter.ch/thanks" /> */}
+
+  <button type="submit" className="w-full rounded-2xl bg-gradient-to-br from-emerald-500 to-cyan-500 px-5 py-3 text-sm font-semibold text-neutral-900 hover:opacity-90">
+    Send Inquiry
+  </button>
+</form>
+
           </div>
         </div>
       </section>
