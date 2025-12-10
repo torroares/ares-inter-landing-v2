@@ -9,15 +9,17 @@ export default function AresInterLanding() {
       {/* Header */}
      <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-neutral-950/70 border-b border-white/10">
   <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div className="flex h-20 items-center justify-between">
+    <div className="flex h-24 items-center justify-between">
       {/* Logo & Name */}
       <a href="#home" className="flex items-center gap-3">
   <div className="h-16 w-16 rounded-xl bg-gradient-to-br from-emerald-400/90 to-cyan-500/90 flex items-center justify-center shadow-lg">
     <img
-      src="/images/areslogo.png"
-      alt="Ares Inter Logo"
-      className="h-14 w-14 object-contain opacity-100"
-    />
+  src="/images/areslogo.png"
+  alt="Ares Inter Logo"
+  className="h-15 w-15 object-contain opacity-95"
+  style={{ maxWidth: '95%', maxHeight: '95%' }}
+/>
+
   </div>
   <span className="text-xl font-semibold tracking-tight text-white">
     Ares Inter GmbH
