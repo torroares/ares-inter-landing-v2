@@ -31,7 +31,7 @@ export default function AresInterLanding() {
       {/* Desktop Navigation */}
       <nav className="hidden md:flex items-center gap-8 text-sm text-neutral-300">
         <a href="#services" className="hover:text-white transition-colors">Services</a>
-        <a href="#industry" className="hover:text-white transition-colors">Sports Betting</a>
+        <a href="#industry" className="hover:text-white transition-colors">Industry </a>
         <a href="#approach" className="hover:text-white transition-colors">Approach</a>
         <a href="#compliance" className="hover:text-white transition-colors">Compliance</a>
         <a href="#case-studies" className="hover:text-white transition-colors">Case Studies</a>
