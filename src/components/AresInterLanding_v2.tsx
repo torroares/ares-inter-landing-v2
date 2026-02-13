@@ -89,9 +89,9 @@ export default function AresInterLanding() {
                 Consulting • Technology • Market Success
               </span>
               <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">
-                Accelerate growth in{' '}
+                Strategic Advisory for{' '}
                 <span className="bg-gradient-to-br from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
-                  Gaming & Sports Betting
+                  Ambitious Growth
                 </span>
               </h1>
               <p className="mt-4 text-neutral-300">
